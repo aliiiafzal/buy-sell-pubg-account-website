@@ -1,0 +1,132 @@
+.ash{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(0, 0, 0, 0.938);
+}
+.navbar{
+    background-color: transparent;
+    position: relative;
+    z-index: 4;
+}
+.nav-link{
+    font-size: 20px;
+}
+main{
+  
+    top: 0%;
+    z-index: 0;
+}
+
+.btn1 , .btn2{
+	background: linear-gradient(to bottom right, #ff66ff 0%, #3366ff 100%);
+	padding: 15px;
+	margin:40px;
+	border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.btn1:hover , .btn2:hover{
+	border:1px solid red;
+	background:transparent;
+	color:red;
+	border-radius: 25px;
+}
+
+.alignbtns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; 
+	
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 8%;
+}
+.site-wrapper{
+    height: auto;
+}
+.card{
+    background-color: rgb(0,0,0,0.712);
+}
+.parallax{
+    background-image: url('graphics/5.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.search, .search-btn{
+	box-sizing: border-box;
+}
+.search-form{
+    text-align: center;
+
+}
+.search{
+	background:transparent;
+	width: 250px;
+    padding: 5px;
+    border-radius: 15px;
+    outline: 0px;
+}
+.search-btn{
+	background:transparent;
+	padding: 5px;
+    border-radius: 15px;
+    outline: 0px;
+}
+.search-btn:hover{
+	border:1px solid cyna;
+}
+
+
+.image-preview{
+    width: 300px;
+    min-height: 100px;
+    border: 2px solid #dddddd;
+    margin-top: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+.image-preview__image{
+    display: none;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:active,
+a:focus,
+a:hover{
+    text-decoration: none;
+    outline: 0;
+
+}
+
+
+
+
+
+
+.btn btn-primary{
+  float: right;
+}

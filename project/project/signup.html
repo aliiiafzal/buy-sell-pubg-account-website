@@ -1,0 +1,98 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<head>
+<title>Sign up</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="css/form.css">
+</head>
+<body class="Registerr">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#" style="font-family: 'skranji' , cursive;">~ GameSpot ~</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto"></div>
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" id="abc" href="index.php">Home</a>
+          <a class="nav-item nav-link" id="select" href="signup.html">Sign up</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+<div class="container-fluid bg">
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12"></div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+            <form class="form-container" id="form12" name="form" onsubmit="return validateForm();" action="signup.php" method="POST">
+                <h1 style="text-align: center;">Sign up</h1>
+                <br>
+                  <div class="form-group">
+                  <label for="exampleInputUsername">Username*</label>
+                  <input type="Username" name="fname" class="form-control" id="fnam" placeholder="username">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email*</label>
+                  <input type="text" name="email" class="form-control" id="emai" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password*</label>
+                  <input type="password" name="password" class="form-control" id="passwor" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPhoneNumber">Phone Number*</label>
+                  <input type="text" name="phone" class="form-control" id="phon" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputCity">City*</label>
+                  <input type="City" name="city" class="form-control" id="exampleInputCity" placeholder="City">
+                </div>
+                <br>
+                <input type="submit" id="signupSubmit" name="submit" class="btn btn-success btn-block">
+              </form>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-12"></div>
+</div>
+</div> 
+
+<div class="bottom">
+<div class="footer" style="
+position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #5A5560;
+  color: white;
+  text-align: center;
+">
+    <div class="footer_container">
+        <div class="row text-center">
+            <p id="bb">
+                Copyright &copy; All rights Reserved <span>Ali Afzal</span>
+            </p>
+        </div>
+    </div>
+    
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="hello.js"></script>
+<script>
+$(document).ready(function(){
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+};
+
+  </script>
+</body>
+
+
+</html>
